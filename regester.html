@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./roadMap.html">Road Map</a></li>
+            <li><a href="./regester.html">Registration Form</a></li>
+            <li><a href="">Contact</a></li>
+
+            <li class="logo"><a href="./index.html"><img src="./images/ITI_logo.png" alt="iti logo"></a></li>
+
+        </ul>
+
+    </header>
+
+    <form class="register" action="" method="POST">
+
+
+        <h1>Register - Create Account</h1>
+        <h3>Field marked with <span class="red-span">*</span> are compulsory fields</h3>
+
+        <div style="display: flex;flex-direction: row;">
+            <div class="form-label">
+                <label for="name"><span class="red-span">*</span>Your Name</label>
+                <label for="email"><span class="red-span">*</span>Email</label>
+                <label for="alt_email">Alternate Email</label>
+                <label style="padding: 10px 0px;" for="phone">Your Phone</label>
+                <label style="padding-bottom: 138px;" for="address"><span class="red-span">*</span>Your postal address</label>
+                <label for="country">Country</label>
+                <label for="password"><span class="red-span">*</span>Password</label>
+                <label for="re-password"><span class="red-span">*</span>Re-Enter Password</label>
+            </div>
+
+            <div class="form-inputs">
+                <input type="text" name="name">
+                <input type="email" name="email">
+                <input type="email" name="alt_email">
+                <div class="phone-input" >
+                    <p>country Code - City Code - Phone Number</p>
+                    <input style="width: 50px;" width="20px"  type="phone" name="phone"> -
+                    <input style="width: 40px;" type="phone" name="phone"> -
+                    <input style="width: 100px;" width="5" type="phone" name="phone">
+                </div>
+                <textarea name="address" id="" cols="30" rows="10"></textarea>
+                <select name="country" value="egypt">
+                    <option value="select" selected disabled>-----select-----</option>
+                    <option value="egypt">Egypt</option>
+                    <option value="usa">Usa</option>
+                    <option value="jaban">Jaban</option>
+                </select>
+                <input type="password" name="password">
+                <input type="password" name="password">
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+        <input type="checkbox" value="terms">
+        <label for="terms">I agree to <a href="#" target="_blank" rel="noopener noreferrer">terms of
+                use</a></label>
+
+            <br>
+        <input type="submit" value="Continue >>">
+        <input type="reset" value="reset">
+    </div>
+
+
+
+
+
+
+
+    </form>
+
+    <footer>
+        <hr>
+        <p style="text-align: center;">Copyright 2022 by Mohamed Talaat &reg; .All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

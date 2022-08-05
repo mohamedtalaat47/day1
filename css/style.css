@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 32px 20px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+header li a:hover:not(.active) {
+    background-color: rgb(150, 0, 0);
+}
+
+.logo {
+    float: right;
+}
+
+.logo a {
+    height: 100px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.logo img {
+    height: 100%;
+}
+
+.topics {
+    margin-top: 50px;
+}
+
+.topics div {
+    display: inline-block;
+}
+
+.left-half {
+    width: 50%;
+    height: 400px;
+
+}
+
+.right-half {
+    width: 49%;
+    height: 400px;
+    vertical-align: top;
+}
+
+
+/*  form styles  */
+.red-span{
+    color: red;
+}
+
+.register{
+    background-color: rgb(241, 247, 245);
+    border: 2px solid rgb(107, 197, 142);
+    color: rgb(31, 107, 78);
+    margin: auto;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.register h1{
+    margin-left: 10px;
+}
+
+.register h3{
+    margin: 10px 9px;
+    border: 1px dashed rgb(107, 197, 142);
+    color: rgb(13, 66, 33);
+}
+
+/* .register label,textarea{
+    display: block;
+    margin: 5px;
+} */
+/* .form-element{
+
+}
+
+.form-element label{
+    width: 50%;
+    background-color: #c8f8ec;
+    margin-left: 10px;
+    float: left;
+} */
+
+.form-label label{
+    width: 400px;
+    background-color: #c8f8ec;
+    margin: 5px;
+    display: block;
+    
+}
+
+.form-inputs input,textarea{
+    display: block;
+    margin: 5px;
+}
+
+.phone-input input{
+    display: inline-block;
+}
+
+.phone-input p{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}

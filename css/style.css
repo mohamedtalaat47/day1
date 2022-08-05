@@ -36,7 +36,6 @@ header li a:hover:not(.active) {
     height: 100px;
     padding: 0;
     margin: 0;
-
 }
 
 .logo img {
@@ -54,7 +53,6 @@ header li a:hover:not(.active) {
 .left-half {
     width: 50%;
     height: 400px;
-
 }
 
 .right-half {
@@ -64,12 +62,28 @@ header li a:hover:not(.active) {
 }
 
 
+/* top button */
+
+.top {
+    text-align: center;
+    padding: 5px;
+}
+
+.top a {
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+
 /*  form styles  */
-.red-span{
+
+.red-span {
     color: red;
 }
 
-.register{
+.register {
     background-color: rgb(241, 247, 245);
     border: 2px solid rgb(107, 197, 142);
     color: rgb(31, 107, 78);
@@ -79,20 +93,23 @@ header li a:hover:not(.active) {
     margin-bottom: 50px;
 }
 
-.register h1{
+.register h1 {
     margin-left: 10px;
 }
 
-.register h3{
+.register h3 {
     margin: 10px 9px;
     border: 1px dashed rgb(107, 197, 142);
     color: rgb(13, 66, 33);
 }
 
+
 /* .register label,textarea{
     display: block;
     margin: 5px;
 } */
+
+
 /* .form-element{
 
 }
@@ -104,24 +121,24 @@ header li a:hover:not(.active) {
     float: left;
 } */
 
-.form-label label{
+.form-label label {
     width: 400px;
     background-color: #c8f8ec;
     margin: 5px;
     display: block;
-    
 }
 
-.form-inputs input,textarea{
+.form-inputs input,
+textarea {
     display: block;
     margin: 5px;
 }
 
-.phone-input input{
+.phone-input input {
     display: inline-block;
 }
 
-.phone-input p{
+.phone-input p {
     padding: 0;
     margin: 0;
     font-size: 12px;
